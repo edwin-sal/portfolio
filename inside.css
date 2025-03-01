@@ -9,4 +9,15 @@
 body {
 	height: 100dvh;
 	background-image: url('/images/bg/stars.jpeg');
+	font-family: "Comic Neue", cursive;
+	color: whitesmoke;
+}
+
+.text-design {
+font-family:Garamond, serif;
+line-height:1em;
+color:#b3ff00;
+font-weight:bold;
+font-size:120px;
+text-shadow:0px 0px 0 rgb(150,226,-29),1px 1px 0 rgb(131,207,-48),2px 2px 0 rgb(112,188,-67),3px 3px 0 rgb(94,170,-85),4px 4px 0 rgb(75,151,-104),5px 5px 0 rgb(56,132,-123),6px 6px 0 rgb(37,113,-142), 7px 7px 0 rgb(18,94,-161),8px 8px 7px rgba(0,0,0,0.05),8px 8px 1px rgba(0,0,0,0.5),0px 0px 7px rgba(0,0,0,.2);
 }
