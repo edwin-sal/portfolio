@@ -7,11 +7,14 @@
 	<link rel="stylesheet" href="inside.css">
 </head>
 <body>
-	<aside>
+	<aside class="sidebar">
 		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">Projects</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#studeefy">Studeefy</a></li>
+			<li><a href="#pokemon">Pokemon Guessing Game</a></li>
+			<li><a href="#tictactoe">!TicTacToe</a></li>
+			<li><a href="#apartment">Apartment Management System</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</aside>
 
@@ -27,58 +30,67 @@
 		</section>
 
 		<section id="projects">
-			<article>
-				<h2>Studeefy</h2>
-				<p>Studeefy is a Learning Management System (lms) that I built for our capstone project at university. Unlike any other lms, Studeefy has an ai-powered automated features such as automated flashcards and quiz creation.</p>
+			<article id="studeefy">
+				<div>
+					<h2>Studeefy</h2>
+					<p>Studeefy is a Learning Management System (lms) that I built for our capstone project at university. Unlike any other lms, Studeefy has an ai-powered automated features such as automated flashcards and quiz creation.</p>
 
-				<p>The automated feature works by the user uploading a document preferebly containing educational content. The text content of the document are then extracted and passed to OpenAI's GPT API and with the correct instructions given, it will pass back a formatted content that can be used to create flashcards and quizzes!!</p>
+					<p>The automated feature works by the user uploading a document preferebly containing educational content. The text content of the document are then extracted and passed to OpenAI's GPT API and with the correct instructions given, it will pass back a formatted content that can be used to create flashcards and quizzes!!</p>
 
-				<p>Aside from automation, studeefy also pack very similar features to MS teams as it was the main insipiration of it. Virtual classes, quizzes, assignments, messaging, and file uploads! all of these happening in Studeefy.</p>
+					<p>Aside from automation, studeefy also pack very similar features to MS teams as it was the main insipiration of it. Virtual classes, quizzes, assignments, messaging, and file uploads! all of these happening in Studeefy.</p>
 
-				<p>this is definitely the best one i have built yet.</p>
+					<p>this is definitely the best one i have built yet.</p>
+				</div>
 
-				<img src="/images/screenshots/studeefy.png" alt="Screenshot of studeefy">
+				<img class="screenshot" src="/images/screenshots/studeefy.png" alt="Screenshot of studeefy">
 			</article>
 
-			<article>
-				<h2>Pokemon Guessing Game</h2>
+			<article id="pokemon">
+				<div>
+					<h2>Pokemon Guessing Game</h2>
 
-				<p>up to this date i still have not thought about giving it a proper name so i guess it will still be called the pokemon guessing game. this one is definitely the most fun i have built. its an android app but built using web technologies such as react and ionic.</p>
+					<p>up to this date i still have not thought about giving it a proper name so i guess it will still be called the pokemon guessing game. this one is definitely the most fun i have built. its an android app but built using web technologies such as react and ionic.</p>
 
-				<p>How does it work? well if you have read the title then you already know. btw, this one uses PokeAPI which is great for getting information about Pokemons. additionally, it can store date such as scores and users using local storage.</p>
+					<p>How does it work? well if you have read the title then you already know. btw, this one uses PokeAPI which is great for getting information about Pokemons. additionally, it can store date such as scores and users using local storage.</p>
+				</div>
 
-				<img src="/images/screenshots/pokemon1.jpg" alt="Screenshot of Pokemon guessing game screenshot">
-				<img src="/images/screenshots/pokemon2.jpg" alt="Screenshot of Pokemon guessing game screenshot">
+				<img class="screenshot" src="/images/screenshots/pokemon.png" alt="Pokemon guessing game screenshot">
 			</article>
 
-			<article>
-				<h2>!TicTacToe</h2>
+			<article id="tictactoe">
+				<div>
+					<h2>!TicTacToe</h2>
 
-				<p>why is there a "!" in the name? well if you are a fellow programmer then you know that "!" means "not", and this tictactoe is NOT your ordinary tictactoe!! ;p</p>
+					<p>why is there a "!" in the name? well if you are a fellow programmer then you know that "!" means "not", and this tictactoe is NOT your ordinary tictactoe!! ;p</p>
 
-				<p>this project is my first dive with javascript. it was a nightmare as i had to finish it in the weekened while needing to learn about min-max-algorithm applied with javascript.</p>
+					<p>this project is my first dive with javascript. it was a nightmare as i had to finish it in the weekened while needing to learn about min-max-algorithm applied with javascript.</p>
 
-				<p>Yup, this one uses min-max-algorithm (thanks to the guy from freecodecamp who provided the algorithm). this means that you won't be fighting against fellow fiddle humans, but with an unbeatable algorithm.</p>
+					<p>Yup, this one uses min-max-algorithm (thanks to the guy from freecodecamp who provided the algorithm). this means that you won't be fighting against fellow fiddle humans, but with an unbeatable algorithm.</p>
 
-				<p>forget about winning on this one. be grateful if you can even get a draw</p>
+					<p>forget about winning on this one. be grateful if you can even get a draw</p>
+				</div>
+
+				<img class="screenshot" src="/images/screenshots/tictactoe.png" alt="!Tictactoe screenshot">
 			</article>
 
-			<article>
-				<h2>Apartment Management System</h2>
+			<article id="apartment">
+				<div>
+					<h2>Apartment Management System</h2>
 
-				<p>before getting my hands dirty with web development, i first had experience with developing desktop gui using java swing. this is a system i built for our OOP class at university.</p>
+					<p>before getting my hands dirty with web development, i first had experience with developing desktop gui using java swing. this is a system i built for our OOP class at university.</p>
 
-				<p>not much to say about this one except for some reason, i don't have a proper screenshot this project. this image is from the moment i finished developing it. the bilt-in date and time feature is the proof as i remember finishing this project from 9am to 4am.</p>
+					<p>not much to say about this one except for some reason, i don't have a proper screenshot this project. this image is from the moment i finished developing it. the bilt-in date and time feature is the proof as i remember finishing this project from 9am to 4am.</p>
 
-				<p>also, have i not mentioned yet that it also connects to mysql? cool stuff, it was magical actually.</p>
+					<p>also, have i not mentioned yet that it also connects to mysql? cool stuff, it was magical actually.</p>
+				</div>
 
-				<img src="/images/screenshots/apartment.jpg" alt="Aparment management system screenshot">
+				<img class="screenshot" src="/images/screenshots/apartment.jpg" alt="apartment management system screenshot">
 			</article>
 		</section>
 	</main>
 
-	<aside>
-		<h2>tech used</h2>
+	<aside class="info-container">
+		<!-- <h2>tech used</h2>
 		<ul>
 			<li>html</li>
 			<li>CSS</li>
@@ -86,7 +98,8 @@
 			<li>React</li>
 			<li>Firebase</li>
 			<li>Open AI API</li>
-		</ul>
+		</ul> -->
+		Hover or click on anything to learn more!
 	</aside>
 </body>
 </html>
